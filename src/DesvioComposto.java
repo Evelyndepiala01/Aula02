@@ -12,7 +12,7 @@ public class DesvioComposto {
 		System.out.println("Por favor, digite o valor da doação recebida!");
 		doacao = leitor.nextDouble();
 	
-		if (doacao<100) {
+		if (doacao<1000.00) {
 			investimento = doacao * 0.05;
 			usoImediato = doacao - investimento; 
 		}else {
